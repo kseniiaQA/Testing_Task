@@ -1,0 +1,113 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Select a car and request it",
+    "line": 1,
+    "id": "select-a-car-and-request-it",
+    "tags": [],
+    "uri": "myTest.feature",
+    "elements": [
+      {
+        "id": "select-a-car-and-request-it;select-a-car,-open-its-card-and-order-it,select-buying-in-credit,-fill-in-the-application-form-and-submit",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Select a car, open its card and order it,select buying in credit, fill in the application form and submit",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is on main page",
+            "result": {
+              "status": "undefined",
+              "duration": 279000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "\"Select\" button is pressed",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the selected cars are on the page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "one of the cards are pressed",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "\"Start request\" button is pressed",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "\"Finanzierung\" button is pressed",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the application form is shown",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "neccessary fields are filled with valid information",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "\"submit\" button is pressed",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "\"success message\" appeares on the page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

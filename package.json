@@ -1,0 +1,1 @@
+{"cypress-cucumber-preprocessor":{"nonGlobalStepDefinitions":false,"step_definitions":"cypress/integration"},"devDependencies":{"cypress-cucumber-preprocessor":"^4.3.1"},"dependencies":{"cypress":"^9.5.2"}}
