@@ -1,13 +1,13 @@
 
-Cypress.Commands.add('fillApplicationCredit', () => {
-    cy.get('div.sc-RefOD.jSHGSS').eq(0).click()
-    cy.get('div').contains('Herr').click()
-    cy.get('input[id="checkout.form.name"]').type('Mark')
-    cy.get('input[id="checkout.form.surname"]').type('Smith')
-    cy.get('input[id="checkout.form.email"]').type('example@gmail.com')
-    cy.get('label.sc-gPEVay.cGFxnj').click()
-    cy.get('input.sc-iQKALj.cYYDDW').eq(1).click()
-    cy.get('div').contains('Österreich, +43').click()
-    cy.get('input[id="checkout.form.phone"]').type('1234567')
+Cypress.Commands.add('loginToGeorge', () => {
+  cy.visit('https://george.csas.cz/?login_hint=7777777777');
+  cy.wait(10000)
+  cy.get('div.flex-grow.ng-binding').click()
+  cy.wait(10000)
+  cy.get('a.clickable.btn.btn-default.btn-lg.textcenter').click()
   })
 
+
+  Cypress.Commands.add('searchWord', () => {
+  cy.get('input[id="dropdown-nwaj"]').type('liftago')
+  })

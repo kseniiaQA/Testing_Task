@@ -1,5 +1,5 @@
 {
     "testFiles": "**/*.feature",
-    "baseUrl": "https://www.instamotion.com"
+    "baseUrl": "https://george.csas.cz/"
    
   }
